@@ -10,3 +10,4 @@ Do < div> cria uma divisão
 < label > cria um rotulo
 <progress> uma barra de progresso para loading ou sinalizar algo
 <dialog> open abre o um pop up
+<footer > direitos do site </footer>
