@@ -14,3 +14,10 @@ Do < div> cria uma divisão
 aula dia 05/09/24
 adress deixa em italico e é usado para colocar os direitos do site
 <br> é usado para pular uma linha
+05/09/24
+<thead>: Define o cabeçalho da tabela. Normalmente contém a linha de cabeçalho com a tag <th>.
+<tbody>: Contém o corpo da tabela, onde são colocadas as linhas de dados.
+<tr>: Define uma linha na tabela, seja no cabeçalho, corpo ou rodapé.
+<th>: Define uma célula de cabeçalho, que é geralmente destacada e centralizada por padrão.
+<td>: Define uma célula de dados em uma linha.
+A tag <table> no HTML é usada para criar tabelas.
