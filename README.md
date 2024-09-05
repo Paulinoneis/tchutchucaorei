@@ -11,3 +11,6 @@ Do < div> cria uma divisão
 <progress> uma barra de progresso para loading ou sinalizar algo
 <dialog> open abre o um pop up
 <footer > direitos do site </footer>
+aula dia 05/09/24
+adress deixa em italico e é usado para colocar os direitos do site
+<br> é usado para pular uma linha
