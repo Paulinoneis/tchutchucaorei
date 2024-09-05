@@ -21,3 +21,5 @@ adress deixa em italico e é usado para colocar os direitos do site
 <th>: Define uma célula de cabeçalho, que é geralmente destacada e centralizada por padrão.
 <td>: Define uma célula de dados em uma linha.
 A tag <table> no HTML é usada para criar tabelas.
+< b > deixa em negrito</b>
+HEAD E BODY SÃO OBRIGATORIAS  O HEADER, MAIN, FOOTER NÃO É OBRIGATORIO MAS DEIXA O CODIGO ORGANIZADO
