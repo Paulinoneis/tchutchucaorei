@@ -34,7 +34,18 @@ fonte de codigo <kbd> <code> <samp> < pre>
 apos clickar nesse nome acima aqui embaixo
 abre uma janela do que você escrever < SUMMARY> da um nome a tag</SUMMARY>
 <fieldset> ABRE UM QUADRADO AO REDOR QUE DIGITOU</fieldset>
+
+
+****************AULA DIA 09/09/24********************
+
+
 <hr> apos o header para separar oque quer por linha tipo um _ antes do footer
 <q> faz uma citação</q>
 <small> diminui </small>
 <strong>importancia</strong>
+ CSS
+<body style="background-color: ( cor que vc quer ) > cor do fundo da pagina> 
+No header tambem pode ser posto
+color é para o texto
+
+
