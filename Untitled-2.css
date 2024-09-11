@@ -1,0 +1,142 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Adiciona posição relativa para permitir que o botão flutue */
+}
+
+.content {
+    padding: 20px;
+}
+
+.fab {
+    position: fixed; /* Faz com que o botão fique fixo na tela */
+    bottom: 20px;    /* Distância do fundo da página */
+    right: 20px;     /* Distância da borda direita da página */
+    width: 56px;
+    height: 56px;
+    border-radius: 50%; /* Faz o botão ser circular */
+    background-color: #f44336; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Animações suaves para alterações de estilo */
+}
+
+.fab:hover {
+    background-color: #e53935; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.drawer-toggle {
+    display: none; /* Esconde o checkbox */
+}
+
+.drawer {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente escondido */
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1; /* Garante que o menu fica acima do conteúdo */
+}
+
+.drawer a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.drawer a:hover {
+    color: #f1f1f1;
+}
+
+.drawer .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+    padding: 16px;
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.drawer-toggle:checked + .drawer {
+    left: 0; /* Mostra o menu quando o checkbox está marcado */
+}
+
+.drawer-toggle:checked ~ .content {
+    margin-left: 250px; /* Move o conteúdo quando o menu está visível */
+}
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para os cabeçalhos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo para a lista ordenada */
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: decimal; /* Padrão, pode ser alterado para outro tipo como 'upper-alpha' */
+}
+
+ol li {
+    padding: 5px 0;
+}
+
+/* Estilo para a lista desordenada */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc; /* Padrão, pode ser alterado para outro tipo como 'circle' */
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Estilo adicional para as listas */
+ol, ul {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}

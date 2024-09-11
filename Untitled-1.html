@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="Untitled-2.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .form-container {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 5px;
+    }
+    .form-container h2 {
+        margin-top: 0;
+    }
+    .form-container label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .form-container input[type="submit"] {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .form-container input[type="submit"]:hover {
+        background-color: #218838;
+    }
+</style>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .form-container {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 5px;
+    }
+    .form-container h2 {
+        margin-top: 0;
+    }
+    .form-container fieldset {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .form-container legend {
+        font-weight: bold;
+    }
+    .form-container label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .form-container input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .form-container input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+</head>
+<body>
+
+    <div class="content">
+        <h1>Conteúdo da Página</h1>
+        <p>Aqui está algum conteúdo da página para demonstrar o Floating Action Button.</p>
+    </div>
+    
+    <button class="fab">+</button>
+    <br>
+
+
+    <input type="checkbox" id="drawer-toggle" class="drawer-toggle">
+    
+    <div class="drawer">
+        <label for="drawer-toggle" class="closebtn">&times;</label>
+        <h2>Menu</h2>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="content">
+        <label for="drawer-toggle" class="openbtn">&#9776; Open Drawer</label>
+        <h1>Welcome to My Website</h1>
+        <p>Click on the hamburger icon to open the navigation drawer.</p>
+    </div>
+    <br>
+
+    <h1>Exemplo de Listas</h1>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <div class="form-container"></div>
+        <h2>Formulário com &lt;form&gt;</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <br>
+    <img src="images.jpg" alt="imagem" width="300" height="300" >
+    
+    
+    <div class="form-container">
+        <h2>Formulário com &lt;fieldset&gt;</h2>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
