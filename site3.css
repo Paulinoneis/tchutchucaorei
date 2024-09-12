@@ -1,0 +1,53 @@
+/* Reset básico de margens e padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+} 
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+.borda-preta {
+    border: 5px solid #000000; /* Borda preta de 5 pixels de largura */
+    border-radius: 8px; /* (Opcional) Bordas arredondadas, se desejar */
+    padding: 5px; /* (Opcional) Espaçamento interno, se desejar um efeito mais destacável */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* (Opcional) Sombra suave para um efeito mais destacado */
+}
+
+
